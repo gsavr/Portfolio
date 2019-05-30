@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body{
+    margin-bottom: 60px;
+}
+
+html body{
+    background-image: url(../images/dust_scratches.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    padding: 56px;
+    padding-top: 25px;
+    margin-bottom: 40px;
+    background-color: #E0E7E9;
+    border-bottom: 1px solid #aec5df;
+}
+
+div.navbar.content-header.fixed-top{
+    background-color: #E0E7E9;
+    border-bottom: 1px solid #aec5df;
+    padding-bottom:0px;
+    width:100%
+}
+
+.content-header {
+    align-content: center;
+    max-width: 960px;   /* size of webpage and centering in browser */
+    margin: auto;
+    padding-left:0;
+}
+
+#name {
+    float: left;
+    background-color: #6C7A89;
+    padding: 30px;
+    padding-top:35px;
+    padding-bottom:25px;
+    color: white;
+    margin-top: -25px;
+}
+
+.header-links{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: px;
+    background-color: #E0E7E9;
+}
+
+nav a:link{
+    color: #354649;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(133, 122, 194);
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #354649;
+    text-decoration: none;
+}
+
+.content {
+    align-content: center;
+    max-width: 960px;   /* size of webpage and centering in browser */
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #aec5df;
+}
+
+hr {
+    border: .5px solid #aec5df;
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0 ;
+}
+
+.head {
+    padding: 20px;
+    color: #6C7A89;
+}
+
+.head-port {
+    padding-bottom: 20px;
+    color: #6C7A89;
+}
+
+#profile-pic {
+    padding: 20px;
+    float: left;
+    height: 220px;
+}
+
+p {
+    color: #777777;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.body-p {
+    line-height: 1.4;
+    
+}
+
+.footer{
+    position: absolute; 
+    bottom: 0;
+    background-color: #6C7A89;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 2px solid #aec5df;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+   
+/* Container holding the image and the text in Portfolio page */
+.container-portfolio {
+    /* width: 400px; */
+    position: relative;
+    text-align: center;
+    color: white;
+    /* display: inline-block; */ /* use this for mozill instead of inline only */
+    /* margin-left: 45px; */
+}
+
+.content-portfolio {    /* size of content in webpage and centering in browser */
+    align-content: center;
+    max-width: 960px;   
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #aec5df;
+    padding: 30px;   
+}
+
+.portfolio-desc {
+    background-color: #6C7A89;
+    background-image: linear-gradient(to right,  #6C7A89 ,  rgb(168, 188, 209));
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    padding-top:12px;
+    padding-bottom: 12px;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.portfolio-img{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* contact page */
+form {
+    padding: 20px;
+    color: #777777;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #aec5df;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 100%;
+    height: 100px;
+    margin: 8px 0;
+    border: 1px solid #aec5df;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  #submitbutton {
+      width: 100px;
+      color: white;
+      background-color: #354649;
+      margin-bottom: 0px;
+      font-size: 15px;
+      
+  }
+
+@media screen and (max-width: 768px) {
+    .header-links{
+      padding: 5px;
+      background-color: #E0E7E9;}
+
+    .container-portfolio  {
+        margin-left: 0;
+    }
+      
+}
